@@ -1,8 +1,10 @@
 from os import sys
 import numpy as np
+
 gcolor="green"
 ngcolor="non-green"
 count=0
+
 for line in sys.stdin:
 	data = line.strip().split("\t")
 	data = list(map(int, data))
